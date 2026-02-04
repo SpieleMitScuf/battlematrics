@@ -1,5 +1,5 @@
 {
-    "author": ["RedBot Community"],
+    "author": ["SpieleMitScuf"],
     "install_msg": "Thank you for installing BattleMetrics!\n\nSetup instructions:\n1. Set a category for channels: `[p]battlemetrics setcategory <category>`\n2. Add servers: `[p]battlemetrics add <server_id> [custom_name]`\n\nNo API token required! The BattleMetrics public API works without authentication.\nOptionally set a token for higher rate limits: `[p]battlemetrics settoken <token>`",
     "name": "BattleMetrics",
     "short": "Display BattleMetrics server player counts in locked voice channels",
@@ -12,3 +12,4 @@
     "disabled": false,
     "type": "COG"
 }
+
