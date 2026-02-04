@@ -1,0 +1,14 @@
+{
+    "author": ["RedBot Community"],
+    "install_msg": "Thank you for installing BattleMetrics!\n\nSetup instructions:\n1. Set a category for channels: `[p]battlemetrics setcategory <category>`\n2. Add servers: `[p]battlemetrics add <server_id> [custom_name]`\n\nNo API token required! The BattleMetrics public API works without authentication.\nOptionally set a token for higher rate limits: `[p]battlemetrics settoken <token>`",
+    "name": "BattleMetrics",
+    "short": "Display BattleMetrics server player counts in locked voice channels",
+    "description": "A cog that creates locked voice channels displaying real-time player counts from BattleMetrics servers. Perfect for gaming communities to show server population at a glance. Supports multiple servers, custom formatting, and automatic updates.",
+    "end_user_data_statement": "This cog does not store any end user data. It only stores server configuration (BattleMetrics server IDs, channel IDs, and display names).",
+    "requirements": ["aiohttp"],
+    "tags": ["battlemetrics", "squad", "gaming", "server", "tracker", "player count"],
+    "min_bot_version": "3.5.0",
+    "hidden": false,
+    "disabled": false,
+    "type": "COG"
+}
